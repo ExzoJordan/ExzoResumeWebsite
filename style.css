@@ -1,0 +1,145 @@
+nav {
+    text-align: center;
+    padding: 12px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    padding-bottom: 4px;
+}
+
+nav a:hover {
+    color:crimson;
+    border-bottom: 2px solid crimson
+}
+
+nav a.active {
+color:crimson;
+border-bottom: 2px solid crimson;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;;
+    line-height:1.6;
+    padding-top: 70px;
+    background-image: url(images/ExzoResumeWebsiteBackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+
+h1, h2, h3 {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;;
+    color:white;
+    font-weight:lighter;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    font-family:SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    line-height: 1.6;
+    margin-left: 5%;
+    margin-right: 5%
+}
+
+.center {
+    text-align: center;
+}
+
+.welcome-section, .aboutMe-section, .resume-section, .contactMe-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.contactMe-form div {
+    margin-bottom: 15px;
+    color: white;
+    
+}
+
+.contactMe-form input,
+.contactMe-form textarea {
+    width: 50%;
+    border-radius: 5px;
+    margin: 8px 0;
+    padding: 6px 20px;
+    color: white;
+    font-family:"Segoe UI",Arial,sans-serif;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.contactMe-form input:focus,
+.contactMe-form textarea:focus {
+    border-color:crimson;
+    outline: none;
+    box-shadow:0 0 5px rgba(220, 20, 60, 0.5);
+
+}
+
+#message, #email, #name {
+    display: block;
+}
+
+button {
+    background-color: crimson;
+    font-family:"Segoe UI",Arial,sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    width: 25%;
+    border:none;
+    border-radius: 5px;
+    margin: 8px 0;
+    padding: 6px 20px;
+    box-sizing: border-box;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+button:hover {
+    color:white;
+    border: 2px solid crimson;
+    cursor: pointer;
+}
+
+p a.certificationLink{
+    color:aqua;
+}
